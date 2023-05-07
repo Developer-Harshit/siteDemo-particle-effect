@@ -1,0 +1,77 @@
+html {
+    color: unset;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: system-ui, monospace, sans-serif;
+}
+
+nav li a,
+article a {
+    font-weight: 620;
+    font-size: 1.3rem;
+    color: #2bddd4;
+    text-decoration-line: none;
+}
+
+nav li a {
+    font-weight: 600;
+    /* box-shadow: -0.125rem -0.125rem 0.125rem #2bddd4; */
+}
+
+nav li a:hover,
+article a:hover {
+    color: white;
+    box-shadow: -0.225rem 0.2rem 0rem white;
+    background-color: #27c5c5;
+}
+
+h2 {
+    font-weight: 500;
+    box-shadow: -0.225rem -0.225rem 0rem #2bddd4;
+}
+
+.logo,
+.logo a {
+    font-weight: 720;
+    font-size: 2.5rem;
+    text-decoration-line: none;
+    color: white;
+    font-family: system-ui, sans-serif;
+    font-variant-caps: all-small-caps;
+    /* color: #2bddd4; */
+    text-shadow: 0.225rem 0.225rem 0rem #05cbd1;
+}
+
+article div {
+    background-color: #011616;
+}
+
+article p {
+    font-weight: 360;
+    font-size: 1.2rem;
+}
+
+.ham span {
+    box-shadow: 0.225rem 0.225rem 0rem #05cbd1;
+    background-color: #fff;
+}
+
+#sided {
+    background-color: #011c1ce3;
+}
+
+#sided li a {
+    color: #ffffff;
+    font-size: 2.0rem;
+    border: 0.225rem solid #05dee59a;
+}
+
+#sided ul li a:hover {
+    border: 0.225rem solid #ffffff9a;
+}
+
+
+/* Here lies the homepage theme code */
